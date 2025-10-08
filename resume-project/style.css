@@ -1,5 +1,6 @@
+/*styles for my resume*/
 body {
-font-family: Calibri, Arial, Helvetica, sans-serif;
+font-family: Arial, Open sans-serif;
 }
 
 /* Container */
@@ -12,7 +13,7 @@ padding-bottom: 50px;
 
 /* Name section */
 #name {
-font-size: 42px;
+font-size: 3em;
 color: #33485e;
 border-bottom: 1px solid #33485e;
 width: 60%;
@@ -23,7 +24,7 @@ text-align: center;
 
 /* Title */
 #title {
-font-weight: 1200;
+font-weight: 1.5em;
 font-size: 22px;
 color:#33485e;
 text-align: center;
@@ -48,7 +49,7 @@ ul {
 
 .sectionbox {
   border: 0.5px solid #33485e;
-  width: 60%;
+  width: 70%;
   min-width: 300px;
   padding: 16px;
   background-color: #33485e; 
@@ -57,9 +58,6 @@ ul {
 
 /* Contact info list */
 .menu {
-list-style-type: none;
-margin: 0;
-padding: 0;
 text-align: center;
 }
 .menu li {
@@ -69,7 +67,8 @@ margin: 0 2px;
 
 /* Section Headers */
 .sectionheader {
-font-size: 1.5em;   
+font-size: 1.5em;  
+font-weight: bold 400px; 
 margin: 20px px 0 10px 0;
 color: #ffffff;
 width: 70%;
@@ -80,35 +79,40 @@ line-height: 1.8px;
 /* Job title */
 .jobtitle {
 margin: 25px px 0 10px 0;
-font-weight: bold;
-font-size: 24px;
+font-weight: bold 600px;
+font-size: 1.5em;
 }
 
 /* Organization */
 .organization {
-font-size: 1.0em;
+font-weight: bold 400px;
+font-size: 1.0em; 
 }
 
 /* Date */
 .date {
 margin: 2px 0 0 0;
-font-weight: lighter;
+font-weight: bold 400px;
 font-style: italic;
+font-size: 1.0em;
 }
 
 /* Paragraphs */
 .description {
 margin: 15px 0;
+font-size: 1.0em;
 }
 
 /* Education list */
 #degrees {
 margin: 5px 20px 5px 0;
+font-size: 1.0em;
 }
 
 /* Skills list */
 #do {
 margin: 5px 0 0 0;
+
 }
 
 
