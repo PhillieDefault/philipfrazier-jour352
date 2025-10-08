@@ -1,0 +1,114 @@
+body {
+font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+#container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding-bottom: 50px;
+}
+
+/* Name section */
+#name {
+font-size: 42px;
+color: #33485e;
+border-bottom: 1px solid #33485e;
+width: 60%;
+min-width: 300px;
+margin: 0 auto;
+text-align: center;
+}
+
+/* Title */
+#title {
+font-weight: 1200;
+font-size: 22px;
+color:#33485e;
+text-align: center;
+margin: 20px 0 0 10px;
+font-weight: bold;
+}
+
+/*Mission Statement */
+.missionstatement {
+  width: 50%;
+  margin: 0px auto 30px auto;
+  text-align: center;
+  text-align: justify;
+  font-size: 1em;
+}
+
+/* Section borders */
+ul {
+  line-height: 1.5;     
+  margin-bottom: 10px;  
+}
+
+.sectionbox {
+  border: 0.5px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  padding: 16px;
+  background-color: #33485e; 
+  box-sizing: border-box;
+}
+
+/* Contact info list */
+.menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.menu li {
+display: inline;
+margin: 0 2px;
+}
+
+/* Section Headers */
+.sectionheader {
+font-size: 1.5em;   
+margin: 20px px 0 10px 0;
+color: #ffffff;
+width: 70%;
+min-width: 200px;
+line-height: 1.8px;
+}
+
+/* Job title */
+.jobtitle {
+margin: 25px px 0 10px 0;
+font-weight: bold;
+font-size: 24px;
+}
+
+/* Organization */
+.organization {
+font-size: 1.0em;
+}
+
+/* Date */
+.date {
+margin: 2px 0 0 0;
+font-weight: lighter;
+font-style: italic;
+}
+
+/* Paragraphs */
+.description {
+margin: 15px 0;
+}
+
+/* Education list */
+#degrees {
+margin: 5px 20px 5px 0;
+}
+
+/* Skills list */
+#do {
+margin: 5px 0 0 0;
+}
+
+
