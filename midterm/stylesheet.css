@@ -1,0 +1,201 @@
+/*Base Page Setup*/
+html, body {
+  font-size: 14px;
+  margin: 0px auto 30px auto; 
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  text-align: center; 
+}
+
+/*Page Wrapper*/
+.page-wrapper {
+  width: 70%; 
+  max-width: 90%;     
+  margin: 0px auto 30px auto;   
+  background-color: #ffffff;
+  padding: 48px;
+  text-align: center;  
+}
+
+/*Masthead / Banner*/
+#masthead {
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+  position: relative;
+}
+.masthead-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   padding: 0 20px;  
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* Burger button */
+.burger {
+  font-size: 28px;
+  color: #003f07;
+}
+
+/* Subscribe link */
+.subscribe-link {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  border: 1px solid ;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.masthead-center {
+  text-align: center;
+  margin-top: 10px;
+}
+.pub-name {
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.ampersand {
+  font-style: italic;
+  color: #c79a3a; 
+}
+
+/*Headline*/
+.main-headline {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 40px;
+  line-height: 1.1;
+  color: #1a1a1a;
+  margin: 0px;
+  text-align: center; 
+}
+
+/*Byline & Date*/
+#byline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin: 0px auto 30px auto;
+  color: #000000;
+  font: bolder;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+.pub-date {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-left: 8px;
+  color: #777;
+  font-size: 13px;
+}
+
+/*Subheadings*/
+.subhead {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #2c3e3e;
+  margin: 50px 0 20px 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.subheading {
+  font-family: "Playfair Display", Georgia, serif;
+  width: 60%;
+  margin: 25px auto 20px auto;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/*Figures & Captions*/
+/*Hero Image*/
+.hero-figure {
+  width: 90vw;           
+  margin-left: 50%;        
+  transform: translateX(-50%);
+  position: relative;
+}
+
+.hero-figure img.hero {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-figure .caption {
+  max-width: 880px;
+  margin: 10px auto 0;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+
+figure img {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 2px auto;
+}
+.caption {
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  margin-top: 6px;
+}
+
+/*Pullquotes*/
+.pullquote {
+  margin: 36px auto;
+  padding: 20px 28px;
+  border-left: 6px solid #c9a349;
+  background-color: #faf6ef;
+  font-style: italic;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  color: #333;
+  max-width: 80%;
+  text-align: center;
+}
+
+/*Related Items*/
+#related {
+  margin-top: 50px 10px 0px;
+  border-top: 15px ;
+  text-align: center;
+}
+#related h3 {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+.related-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.related-list li {
+  margin: 8px 0;
+}
+.related-list a {
+  color: #0b4d6c;
+  font-weight: 600;
+  text-decoration: none;
+}
+.related-list a:hover {
+  text-decoration: underline;
+ 
+}
