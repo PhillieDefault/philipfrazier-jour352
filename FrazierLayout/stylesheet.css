@@ -1,0 +1,123 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: #222;
+    background: #fafafa;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0.6em 1em;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-weight: 600;
+}
+
+.masthead-center {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.subscribe {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 0.3em 0.8em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+#content {
+    width: 900px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.headline {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+
+.chatter {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.byline {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 2em;
+}
+
+.article-body {
+    column-count: 2;
+    column-gap: 2em;
+}
+
+.article-body p,
+.article-body blockquote,
+.article-body h2,
+.article-body img {
+    break-inside: avoid;
+}
+
+
+blockquote {
+    font-family: 'Crimson Pro', serif;
+    font-style: italic;
+    font-size: 1.1em;
+    border-left: 4px solid #000;
+    padding-left: 1em;
+    margin: 2em 0;
+    color: #444;
+}
+
+.wide-image,
+.half-image {
+    width: 100%;
+    border-radius: 6px;
+    margin: 1.5em 0;
+}
+
+.related-links {
+    border-top: 1px solid #ccc;
+    margin-top: 3em;
+    padding-top: 1.5em;
+}
+
+.related-links h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.related-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.related-links li {
+    margin-bottom: 0.6em;
+}
+
+.related-links a {
+    text-decoration: none;
+    color: #0047AB;
+    font-weight: 500;
+}
+
+
