@@ -1,0 +1,62 @@
+body { 
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  color: #000000;
+}
+
+/* Paragraph text */
+p {
+  margin-bottom: 1em;
+  color: #000000;
+}
+
+/* Muted text should still be readable */
+.text-muted {
+  color: #000000 !important;
+}
+
+/* Links: high-contrast */
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar,
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #000000 !important;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Chart styling */
+.chart-img {
+  border: 1px solid #000000;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  background-color: #ffffff;
+  color: #000000;
+}
